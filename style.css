@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+:root {
+    --color-white: 0, 0%, 100%;
+    --color-rosewhite: 330, 100%, 98%;
+    --color-eggshell: 30, 54%, 90%;
+    --color-lgrey: 30, 18%, 87%;
+    --color-wbrown: 30, 10%, 34%;
+    --color-dcharcoal: 24, 5%, 18%;
+    --color-nutmeg: 14, 45%, 36%;
+    --color-draspberry: 332, 51%, 32%;
+
+    --ff-primary: "Outfit";
+    --ff-heading: "Young Serif";
+}
+
+/* body {
+    background-image: url(./assets/images/image-omelette.jpeg);
+} */
+img {
+    max-width: 120%;
+  display: block;
+  margin-left: -2em;
+  margin-top: -2em;
+}
+.heading {
+    font-family: var(--ff-heading);
+    font-weight: 500;
+}
+.recipe__preparation {
+    background-color: hsl(330, 100%, 98%)
+}
+.bold {
+    font-weight: 600;
+}
+ul {
+    /* padding-left: 2rem; */
+    list-style: none;
+  }
+  
+ul li::before {
+        content: "•"; 
+        color: hsl(14, 45%, 36%);
+        display: inline-block; 
+        width: 2em;
+        margin-left: -2em
+    }
+
+ol {list-style: none; counter-reset: li}
+
+ol li::before {
+    content: counter(li); 
+    color:  hsl(14, 45%, 36%);
+    display: inline-block; 
+    width: 2em;
+    margin-left: -2em}
+
+ol li {counter-increment: li}
+li {
+    margin-bottom: 1em;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    border-bottom: solid hsl(30, 18%, 87%) 2px;
+}
+.values {
+    color: hsl(14, 45%, 36%);
+}
