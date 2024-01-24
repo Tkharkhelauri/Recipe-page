@@ -14,33 +14,61 @@
     --ff-heading: "Young Serif";
 }
 
-/* body {
-    background-image: url(./assets/images/image-omelette.jpeg);
-} */
 img {
     max-width: 120%;
   display: block;
   margin-left: -2em;
   margin-top: -2em;
+  margin-bottom: 2rem;
 }
 .heading {
     font-family: var(--ff-heading);
-    font-weight: 500;
+    font-weight: 400;
+    line-height: 1;
+    
+
 }
+.heading__black {
+    display: inline;
+}
+.heading__brown {
+    color:hsl(14, 45%, 36%);
+    margin-top: 2rem;
+    margin-bottom: 0.7rem;
+}
+p {
+    color: hsl(30, 10%, 34%);
+}
+
 .recipe__preparation {
-    background-color: hsl(330, 100%, 98%)
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 0.8rem;
+ 
+}
+.preparation__time {
+    padding: 1.4rem  0 0 1.4rem;
+    color: hsl(332, 51%, 32%);
 }
 .bold {
     font-weight: 600;
+    color: hsl(30, 10%, 34%);
 }
-ul {
-    /* padding-left: 2rem; */
+.thread {
+    color: hsl(30, 10%, 34%);
+    padding-left: 1.8rem;
+}
+.recipe__preparation ul {
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+    margin-right: 3rem;
+  }
+  ul {
     list-style: none;
   }
-  
 ul li::before {
         content: "•"; 
         color: hsl(14, 45%, 36%);
+        font-weight: bold;
         display: inline-block; 
         width: 2em;
         margin-left: -2em
@@ -51,21 +79,36 @@ ol {list-style: none; counter-reset: li}
 ol li::before {
     content: counter(li); 
     color:  hsl(14, 45%, 36%);
+    font-weight: bold;
     display: inline-block; 
     width: 2em;
     margin-left: -2em}
 
 ol li {counter-increment: li}
 li {
-    margin-bottom: 1em;
+    margin-bottom: 0.7em;
+    color: hsl(30, 10%, 34%);
+}
+hr {
+    border: 1px solid hsl(30, 18%, 87%);
+  
+}
+
+.nutritions__descriptions {
+    margin-bottom: 1.6rem;
 }
 table {
     width: 100%;
     border-collapse: collapse;
 }
+
 td {
     border-bottom: solid hsl(30, 18%, 87%) 2px;
+    padding: 0.5rem;
 }
 .values {
     color: hsl(14, 45%, 36%);
+}
+.last {
+    border: 0;
 }

@@ -28,8 +28,8 @@ ol[role='list'] {
 body {
   background-color: hsl(0, 0%, 100%);
   font-family: var(--ff-primary);
-  line-height: 1.5;
-  padding: 1.5em;
+  line-height: 1.4;
+  padding: 1.47rem;
 }
 
 /* Set shorter line heights on headings and interactive elements */
