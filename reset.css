@@ -30,6 +30,9 @@ body {
   font-family: var(--ff-primary);
   line-height: 1.4;
   padding: 1.47rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Set shorter line heights on headings and interactive elements */

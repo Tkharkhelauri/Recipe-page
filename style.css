@@ -112,3 +112,36 @@ td {
 .last {
     border: 0;
 }
+
+@media (min-width:1440px) {
+    body {
+        background-color: hsl(30, 54%, 90%);
+
+    }
+    .container {
+        max-width: 780px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        box-shadow: 0cqmax;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+        border-radius: 20px;
+        padding: 2.5rem;
+
+    }
+    img {
+        margin: auto;
+        width: 680px;
+        border-radius: 20px;
+        
+        margin-bottom: 2.5rem;
+    }
+    .recipe__description {
+        padding-bottom: 2rem;
+    }
+    hr {
+        
+    }
+}
